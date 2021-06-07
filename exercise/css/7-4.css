@@ -1,0 +1,18 @@
+
+#container{ width:640px;
+            margin:0 auto;} /*가운데 정렬*/
+#check{border:1px solid #ccc;
+       }
+h1{background-color: black;
+   color: white;
+   font-size: 16px;
+   padding: 10px;
+   margin: 0;
+   }
+h2{color:#ff0000;
+   font-size: 1.5;
+   text-align: center;}
+p{text-align: center;
+  font-weight: bold;}   
+.accent{color: blue;}
+.smalltext{font-size: 14px;}

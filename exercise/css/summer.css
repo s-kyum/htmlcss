@@ -1,0 +1,7 @@
+body{background-color: pinK;}
+h2{color:rgb(14, 54, 139);}
+p{color:green;
+  font-family:"궁서";
+  font-size:18px;
+  /* 16px이 기본 */
+  line-height: 1.5;}

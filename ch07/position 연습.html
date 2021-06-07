@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그림안에 텍스트 넣기</title>
+    <style>
+        /* body{background:url(images/bg.jpg)}  하면 화면 꽉차게 나옴 */ 
+        #bg{width:640px;
+            height: 426px;
+            background: url(images/bg.jpg) no-repeat;
+            /* background-size: cover; */
+            margin: 0 auto;
+            position: relative;} /*,넣으면 안됌*/
+        h1{color:white;
+           font-size: 100px;
+           text-shadow:2px 3px 0px #000; /*그림자의 가로크기 세로크기 번짐정도 색깔*/
+           position: absolute;
+           bottom:0px;
+           right:100px;
+           margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <h1>CSS3</h1>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation menu</title>
+    <style>
+        #container{width: 900px;
+                   margin:0 auto;}
+        nav{
+            /* width:100%;  #container와 nav(메뉴)크기가 같으면 100%, 생략하면 100% */ 
+            height:60px;
+            background-color:#006699;}
+        nav ul{list-style:none;
+               text-align: right;
+               margin-right: 100px;}
+        nav ul li{
+            display:inline-block; 
+            /*margin이 들어가면 inline-block을 사용*/
+                  margin: 20px;}
+                 
+        nav ul li a{text-decoration: none;
+                    color:#fff;}
+    </style>
+</head>
+<body>
+    <div id="container">
+    <nav>
+        <ul>
+            <li><a href="#">애완견 종류</a></li>
+            <li><a href="#">입양 하기</a></li>
+            <li><a href="#">건강 돌보기</a></li>
+            <li><a href="#">더불어 살기</a></li>
+            
+        </ul>
+    </nav>
+    </div>
+</body>
+</html>

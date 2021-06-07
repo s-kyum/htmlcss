@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표를 만드는 태그 실습 예제</title>
+    <style>
+        caption{line-height: 2;}
+        table{border:1px solid #ccc;
+              text-align: center;
+              /*width: 300px; 글자만 넣을 때는 width생략해도 됌. 글자크기에 따라 자동으로 맞춰짐*/
+              }
+        td{border:1px solid #ccc;
+           height: 50px;}
+    </style>
+</head>
+<body>
+    <table>
+    <caption> 재무 상태표</caption>
+        <tr>
+            <td rowspan="2">자산 :현금,<br> 현금외 자산</td>
+            <td>부채:차입금</td>
+        </tr>
+        <tr>
+            <td>자본:자본금, 이익잉여금</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
