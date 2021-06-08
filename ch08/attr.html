@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자</title>
+    <style>
+        ul{list-style: none;}
+        ul li{display:inline;
+              padding:5px 10px;}
+        ul li a{text-decoration: none;
+                padding:5px 20px;
+                color:#000;}
+        ul li a[href]{background: aqua;}/* 속성 선택자 */
+        /* ul li a:hover{color:brown;}  */
+        ul li a:hover, a:focus{background: chartreuse;}
+        /* 가상선택자 */
+        ul li a:active{color:brown;} /* 클릭하면 바뀜 */
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a>메인 메뉴 :</a></li>
+        <li><a href="#">메뉴 1</a></li>
+        <li><a href="#">메뉴 2</a></li>
+        <li><a href="#">메뉴 3</a></li>
+        <li><a href="#">메뉴 4</a></li>
+    </ul>
+    
+</body>
+</html>

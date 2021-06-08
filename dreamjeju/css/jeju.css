@@ -58,6 +58,7 @@ footer{height:100px;
 #bottomMenu ul li{display:inline;
                   padding:5px 20px;
                   border-right: 1px solid #ccc;}
+#bottomMenu ul li:nth-last-child(1){border:none;}
 #bottomMenu ul li a{text-decoration: none;
                     color:black;
 }
