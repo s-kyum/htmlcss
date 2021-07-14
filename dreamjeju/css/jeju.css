@@ -1,64 +1,108 @@
 /* 구글 웹 폰트 적용 */
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Nanum+Pen+Script&display=swap');
-*{margin:0;
-  padding:0;}
-#container{width:1100px;
-           margin:0 auto;
-           }
-header{width:100%;
-       height: 100px;
-       background-color:#045;}
-#logo{width:250px;
-      height:100px;
-      float:left;
-      line-height: 100px;}
-#logo h1{color:white;
-         padding-left: 40px;
-         font-family: 'Merienda', cursive;}
-#logo h1 a{text-decoration: none;
-           color:white;}           
-nav{width:700px;
-    height:100px;
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* header 영역 */
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#045;
+}
+#logo{
+    width: 250px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+#logo h1{
+    font-family: 'Merienda', cursive;
+    color: white;
+    padding-left: 40px;
+}
+#logo h1 a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    width: 700px;
+    height: 100px;
     float:right;
     text-align: center;
-    /* margin-right:100px; */
-    }
-#topMenu{list-style: none;}
-#topMenu li{ display:inline;
-            line-height: 100px;}
-#topMenu li a{color:white;
-            text-decoration: none;
-            display:inline;
-            padding:0 30px;}
+}
+#topMenu{ /*ul*/
+    list-style: none;
+}
+#topMenu li{
+    display: inline;
+    line-height: 100px;
+}
+#topMenu li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+}
+#topMenu li a:hover{
+    color: #08f83c;
+}
 
-/* 본문영역 */
-.contents{width:1000px;
-          margin:50px auto;}
-main section{margin-top:50px;
-            height:300px; /*높이를 줘야 section이미지 침범 x*/
-      }
-main div{margin-top:20px;}
-.schedule ul li{line-height: 2;}
-.schedule ul{list-style: none;}
+/* 본문 영역 */
+.contents{
+    width: 1000px;
+    margin: 50px auto;
+}
+main section{
+    margin-top: 50px;
+    height: 300px;
+}
+main section h2{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.5em;
+}
+main div{
+    margin-top: 20px;
+}
+.detail img{
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.detail p{
+    line-height: 2;
+}
 .schedule h3{line-height: 2;}
-.detail img{float: left;
-            margin-right: 30px;
-            border-radius: 20px;}
-.detail p{line-height: 2;}
-section h2{font-family: 'Nanum Pen Script', cursive;
-            font-size: 40px;}
+.schedule ul{
+    list-style: none;
+}
+.schedule ul li{
+    line-height: 2;
+}
 
-/* 푸터영역 */
-footer{height:100px;
-       border-top:2px solid #222;}
-#bottomMenu ul{list-style:none;
-               margin-left: 60px;
-               margin-top: 20px;}
-#bottomMenu ul li{display:inline;
-                  padding:5px 20px;
-                  border-right: 1px solid #ccc;}
-#bottomMenu ul li:nth-last-child(1){border:none;}
-#bottomMenu ul li a{text-decoration: none;
-                    color:black;
+/* footer 영역 */
+footer{
+    height: 100px;
+    border-top: 2px solid #222;
+}
+#bottomMenu ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#bottomMenu ul li{
+    display: inline;
+    padding: 5px 20px;
+    border-right: 1px solid #ddd;
+}
+#bottomMenu ul li:nth-last-child(1){
+    border: none;
+}
+#bottomMenu li a{
+    color: black;
+    text-decoration: none;
 }
